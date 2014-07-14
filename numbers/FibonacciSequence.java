@@ -1,13 +1,17 @@
+ 
+
 import java.util.*;
+
+/*
+ * FibonacciSequence class is solution to problem from Karan projects:
+ * 
+ * https://github.com/karan/Projects
+ * 
+ * Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+ */
 public class FibonacciSequence {
 
-	/**
-	 * Fibonacci Sequence class is solution to problem from Karan projects:
-	 * 
-	 * https://github.com/karan/Projects
-	 * 
-	 * Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
-	 */
+
 	public static void main(String[] args) 
 	{
 
@@ -16,7 +20,7 @@ public class FibonacciSequence {
 	
 		System.out.println ("Enter nth number to calculate Fibonacci Sequence: ");
 		int num = scan.nextInt();
-		
+		scan.close();
 		// Loop until nth number
 		while (count < num)
 		{
